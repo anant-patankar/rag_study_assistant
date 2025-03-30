@@ -1,0 +1,76 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.env
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Project specific
+/artifacts/
+/rag_cache/
+*.faiss
+*.hnsw
+*.pkl
+*.npy
+*.bin
+*.onnx
+*.pt
+*.pth
+embeddings_cache/
+vector_store/
+metadata.db
+query_cache.json
+system_stats.json
+
+# Logs
+*.log
+logs/
+log.txt
+
+# Test files and cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# Temporary files
+tmp/
+temp/
+
+# Large files that should be downloaded after cloning
+*.pdf
+*.docx
+*.epub
+*.csv
+*.json
+*.xml
+*.html
+*.pptx
+/data/
+
+# Backup files
+*~
+*.bak
+*.backup
+backups/
