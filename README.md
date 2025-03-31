@@ -176,7 +176,7 @@ print(result.answer)
 > **NOTE**: This initial implementation of the study assistant is operational but still evolving. You may encounter occasional issues. We welcome bug reports and feature suggestions to improve future versions.
 
 ### Source Code Improvemets:
-- &#10004; Standardized variable naming conventions across all modules
+- &#10004; Standardized variable naming conventions and comments across all modules
 - &#10004; Refactored document processing to improve error handling
 - &#10004; Optimized embedding batch size for better GPU utilization
 - &#10004; Fixed inconsistent section hierarchy detection
